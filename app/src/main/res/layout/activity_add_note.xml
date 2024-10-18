@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/bg_color"
+    tools:context=".AddNoteActivity">
+
+    <TextView
+        android:id="@+id/addNoteHeading"
+        android:layout_width="167dp"
+        android:layout_height="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="130dp"
+        android:fontFamily="@font/corben"
+        android:text="@string/add_tasks"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/done_icon"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addNoteHeading"
+        android:layout_marginEnd="6dp"/>
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_the_title"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:layout_below="@id/addNoteHeading"
+        android:background="@drawable/gray_border"
+        android:layout_marginTop="16dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="381dp"
+        android:layout_height="303dp"
+        android:layout_below="@id/titleEditText"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gray_border"
+        android:fontFamily="@font/poppins"
+        android:gravity="top"
+        android:hint="@string/enter_the_description"
+        android:textColor="@color/black"
+        android:inputType="textMultiLine"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/priorityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_priority"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@id/contentEditText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/gray_border"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/deadlineEditText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/enter_deadline"
+        android:padding="12dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@id/priorityEditText"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/gray_border"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:inputType="none"
+        android:focusable="false" />
+
+
+
+</RelativeLayout>

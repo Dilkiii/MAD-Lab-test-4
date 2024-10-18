@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TO_DO</string>
+    <string name="button">button</string>
+    <string name="addButton">Add Button</string>
+    <string name="planned_to">Planned To</string>
+    <string name="add_notes">ADD NOTE</string>
+    <string name="enter_the_title">Enter the Title</string>
+    <string name="enter_the_description">Enter the Description</string>
+    <string name="title">Title</string>
+    <string name="content">Content</string>
+    <string name="updatenote">updateNote</string>
+    <string name="edit_plan">Edit Plan</string>
+    <string name="savebutton">saveButton</string>
+    <string name="completenote">"Completed "</string>
+    <string name="search_hint">search</string>
+    <string name="enter_priority">Enter Priority</string>
+    <string name="enter_deadline">Enter Deadline</string>
+    <string name="task_app">Task APP</string>
+    <string name="add_tasks">ADD TASKS</string>
+    <string name="taskapp">TASK APP</string>
+    <string name="edit_task">EDIT TASK</string>
+    <string name="task_management">TASK MANAGEMENT</string>
+
+
+</resources>
